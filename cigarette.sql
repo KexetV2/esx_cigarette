@@ -1,6 +1,5 @@
-INSERT INTO `items` (`name`, `label`, `limit`) VALUES
-	('cigarette', 'cigarette', 10),
-;
+INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
+('cigarette', 'cigarette', 10, 0, 1),
 
 
 INSERT INTO `shops` (store, item, price) VALUES
